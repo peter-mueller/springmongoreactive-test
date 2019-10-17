@@ -1,0 +1,24 @@
+GET http://localhost:8080/kunstobjekt/
+
+###
+# Suche mit Tokenizer/Deutscher Stem aber ohne Fuzzy
+
+GET http://localhost:8080/kunstobjekt/?q=Br%C3%BCcke%20Gem%C3%A4lde%20Zeus
+
+
+###
+
+POST  http://localhost:8080/kunstobjekt/
+Content-Type: application/json
+
+{
+    "name": "Gemälde einer Brücke"
+}
+
+### 
+POST  http://localhost:8080/kunstobjekt/
+Content-Type: application/json
+
+{
+    "name": "Kunstfigur von Zeus"
+}
