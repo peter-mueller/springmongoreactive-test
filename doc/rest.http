@@ -5,6 +5,11 @@ GET http://localhost:8080/kunstobjekt/
 
 GET http://localhost:8080/kunstobjekt/?q=Br%C3%BCcke%20Gem%C3%A4lde%20Zeus
 
+###
+# Suche als gestreamtes JSON 
+
+GET http://localhost:8080/kunstobjekt/?q=Br%C3%BCcke%20Gem%C3%A4lde%20Zeus
+Accept: application/stream+json
 
 ###
 
